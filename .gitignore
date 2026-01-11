@@ -1,0 +1,31 @@
+# Build artifacts
+*.o
+*.elf
+*.iso
+*.bin
+*.img
+
+# Directories
+iso/
+build/
+
+# Downloaded bootloader files
+limine/*.sys
+limine/*.bin
+limine/*.EFI
+limine/OVMF.fd
+limine/limine-*
+limine/ovmf-*
+limine/*.zip
+limine/*.tar.gz
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
